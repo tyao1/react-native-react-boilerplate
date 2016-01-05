@@ -1,0 +1,44 @@
+{
+  "name": "react-native-webpack-starter-kit",
+  "version": "0.0.1",
+  "description": "sharing code between web and native",
+  "author": "Tianyu <yaotianyu0512@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "android-setup-port": "adb reverse tcp:8081 tcp:8080",
+    "bundle": "rnws bundle",
+    "test": "eslint src",
+    "start": "rnws start",
+    "build-web": "webpack --verbose --colors --display-error-details --config webpack.web.config.js",
+    "start-web": "node ./webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaobuu/react-native-react-boilerplate"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=2 <4"
+  },
+  "dependencies": {
+    "react-native": "^0.17.0",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-1": "^6.3.13",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "0.1.0",
+    "eslint-loader": "^1.1.1",
+    "eslint-plugin-import": "^0.12.1",
+    "eslint-plugin-react": "^3.11.2",
+    "react-native-webpack-server": "^0.8.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
