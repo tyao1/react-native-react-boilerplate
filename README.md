@@ -17,7 +17,7 @@ Build apps targeting web, iOS and Android!
 - [React Native](http://facebook.github.io/react-native/) for native app development
 - [Babel](http://babeljs.io/) for ES6+ support
 - [Webpack](https://webpack.github.io/) module loader and bundler
-- [Eslint] for better code lint
+- Eslint for better code lint
 
 ## TODO
 - Add Redux
